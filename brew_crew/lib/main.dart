@@ -1,4 +1,4 @@
-import 'package:brew_crew/screens/wrapper.dart';
+import 'package:brew_crew/screens/scanner.dart';
 import 'package:brew_crew/services/auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return StreamProvider<User>.value(
       value: AuthService().user,
       child: MaterialApp(
-        home: Wrapper(),
+        home: LabelScreen(),
       ),
     );
   }

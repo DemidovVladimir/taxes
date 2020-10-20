@@ -40,4 +40,5 @@ post_install do |installer|
   end
 end
 
-pod 'GoogleMLKit/TextRecognition'
+pod 'Firebase/MLVisionTextModel'
+pod 'Firebase/MLVisionBarcodeModel'
